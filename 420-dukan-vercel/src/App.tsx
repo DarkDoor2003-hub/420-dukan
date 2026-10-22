@@ -11,6 +11,7 @@ import {
   Building2,
   FileText,
   Megaphone,
+  Facebook,
   MessageCircle,
   Share2,
   ShoppingBag,
@@ -716,6 +717,18 @@ export default function App() {
                   ONLINE SERVICES
                 </span>
               </div>
+              <div className="mt-5 flex items-center gap-2.5">
+                <a href="https://www.facebook.com/420dukan4u" target="_blank" rel="noopener noreferrer" aria-label="420 DUKAN on Facebook" className="h-9 w-9 rounded-full bg-[var(--bg-soft)] border border-[var(--line)] grid place-items-center hover:border-[var(--line-strong)] transition-colors">
+                  <Facebook className="w-4 h-4" />
+                </a>
+                <a href="https://wa.me/8801876453018" target="_blank" rel="noopener noreferrer" aria-label="420 DUKAN on WhatsApp" className="h-9 w-9 rounded-full bg-[var(--bg-soft)] border border-[var(--line)] grid place-items-center hover:border-[var(--line-strong)] transition-colors">
+                  <MessageCircle className="w-4 h-4" />
+                </a>
+                <a href="mailto:420dukan@gmail.com" aria-label="Email 420 DUKAN" className="h-9 w-9 rounded-full bg-[var(--bg-soft)] border border-[var(--line)] grid place-items-center hover:border-[var(--line-strong)] transition-colors">
+                  <Mail className="w-4 h-4" />
+                </a>
+                <span className="ml-1 text-[12px] text-[var(--ink-soft)]">Follow us on Facebook</span>
+              </div>
             </div>
 
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 text-[13px]">
@@ -743,6 +756,7 @@ export default function App() {
                   <li>Nature: Online Services</li>
                   <li>Matabpur, Paragram, Dhaka 1320</li>
                   <li>Hours: Sat–Thu, 10am–8pm (BST)</li>
+                  <li><a href="https://www.facebook.com/420dukan4u" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--ink)] underline underline-offset-2">Facebook Page</a></li>
                   <li><a href="/privacy" className="hover:text-[var(--ink)] underline underline-offset-2">Privacy Policy</a></li>
                   <li><a href="/terms" className="hover:text-[var(--ink)] underline underline-offset-2">Terms of Service</a></li>
                 </ul>
