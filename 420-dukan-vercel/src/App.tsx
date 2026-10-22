@@ -11,6 +11,7 @@ import {
   Building2,
   FileText,
   Megaphone,
+  MessageCircle,
   Share2,
   ShoppingBag,
   PenTool,
@@ -615,28 +616,12 @@ export default function App() {
             <div className="rounded-[22px] border border-[var(--line)] bg-[var(--surface)] p-2">
               {/* Map Placeholder */}
               <div className="relative rounded-[16px] overflow-hidden border border-[var(--line)] bg-[var(--bg-soft)] aspect-[4/3] sm:aspect-[16/11]">
-                {/* fake map grid */}
-                <div className="absolute inset-0">
-                  <div className="absolute inset-0 opacity-[0.08]" style={{
-                    backgroundImage: `linear-gradient(var(--line-strong) 1px, transparent 1px), linear-gradient(90deg, var(--line-strong) 1px, transparent 1px)`,
-                    backgroundSize: '32px 32px'
-                  }} />
-                  <div className="absolute left-[18%] top-[24%] right-[12%] bottom-[22%] rounded-[24px] bg-[var(--accent-soft)] border border-[var(--line)]" />
-                  <div className="absolute left-[26%] top-[34%] h-[2px] w-[48%] bg-[var(--line-strong)] rotate-[8deg] rounded-full" />
-                  <div className="absolute left-[30%] top-[56%] h-[2px] w-[36%] bg-[var(--line-strong)] -rotate-[12deg] rounded-full" />
-                </div>
-
-                <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center">
-                  <div className="relative">
-                    <div className="h-12 w-12 rounded-full bg-[var(--ink)] text-[var(--bg)] grid place-items-center shadow-xl">
-                      <MapPin className="w-6 h-6" />
-                    </div>
-                    <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 h-2 w-6 bg-black/20 blur-[4px] rounded-full" />
-                  </div>
-                  <div className="mt-3 px-3 py-1.5 rounded-full bg-[var(--surface)] border border-[var(--line)] shadow-sm text-[11px] font-medium">
-                    MATABPUR, PARAGRAM
-                  </div>
-                </div>
+                <iframe
+                  title="420 DUKAN location — Matabpur, Paragram, Dhaka 1320"
+                  src="https://maps.google.com/maps?q=Paragram%2C%20Dhaka%201320%2C%20Bangladesh&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  className="absolute inset-0 h-full w-full border-0"
+                  loading="lazy"
+                />
 
                 <div className="absolute left-3 top-3 px-3 py-1.5 rounded-full bg-[var(--surface)] border border-[var(--line)] shadow-sm flex items-center gap-2 text-[11px] font-medium">
                   <div className="h-2 w-2 rounded-full bg-emerald-500" />
@@ -645,7 +630,7 @@ export default function App() {
 
                 <div className="absolute bottom-3 left-3 right-3 flex justify-between items-end gap-3">
                   <div className="px-3 py-2 rounded-[10px] bg-[var(--surface)]/90 backdrop-blur border border-[var(--line)] text-[11px] leading-[1.4] max-w-[58%]">
-                    <div className="font-semibold">Google Maps Placeholder</div>
+                    <div className="font-semibold">Find Us Here</div>
                     <div className="text-[var(--ink-soft)]">Exact pin: MATABPUR, PARAGRAM, Dhaka 1320</div>
                   </div>
                   <a
@@ -664,39 +649,41 @@ export default function App() {
                 <p className="mt-1.5 text-[13px] leading-[1.6] text-[var(--ink-soft)]">
                   For a service inquiry, contact us directly. We reply within a few hours.
                 </p>
-                <div className="mt-5 grid sm:grid-cols-2 gap-3">
-                  <div className="rounded-[12px] border border-[var(--line)] bg-[var(--bg)] px-4 py-3">
-                    <div className="text-[10px] uppercase tracking-widest font-semibold text-[var(--ink-muted)]">Your Name</div>
-                    <div className="mt-1 text-[13px] text-[var(--ink-muted)]">Enter full name</div>
+                <form action="https://formsubmit.co/tusert257@gmail.com" method="POST" className="mt-5">
+                  <input type="hidden" name="_subject" value="New inquiry from the 420 DUKAN website" />
+                  <input type="hidden" name="_template" value="table" />
+                  <input type="hidden" name="_next" value="https://420-dukan.vercel.app/#contact" />
+                  <div className="grid sm:grid-cols-2 gap-3">
+                    <label className="block rounded-[12px] border border-[var(--line)] bg-[var(--bg)] px-4 py-3">
+                      <span className="text-[10px] uppercase tracking-widest font-semibold text-[var(--ink-muted)]">Your Name</span>
+                      <input required name="name" type="text" placeholder="Enter full name" className="mt-1 w-full bg-transparent text-[13px] outline-none placeholder:text-[var(--ink-muted)]" />
+                    </label>
+                    <label className="block rounded-[12px] border border-[var(--line)] bg-[var(--bg)] px-4 py-3">
+                      <span className="text-[10px] uppercase tracking-widest font-semibold text-[var(--ink-muted)]">Phone / WhatsApp</span>
+                      <input required name="phone" type="tel" placeholder="01XXXXXXXXX" className="mt-1 w-full bg-transparent text-[13px] outline-none placeholder:text-[var(--ink-muted)]" />
+                    </label>
+                    <label className="block sm:col-span-2 rounded-[12px] border border-[var(--line)] bg-[var(--bg)] px-4 py-3">
+                      <span className="text-[10px] uppercase tracking-widest font-semibold text-[var(--ink-muted)]">Message</span>
+                      <textarea required name="message" rows={3} placeholder="How can 420 DUKAN help you?" className="mt-1 w-full bg-transparent text-[13px] outline-none resize-none placeholder:text-[var(--ink-muted)]" />
+                    </label>
                   </div>
-                  <div className="rounded-[12px] border border-[var(--line)] bg-[var(--bg)] px-4 py-3">
-                    <div className="text-[10px] uppercase tracking-widest font-semibold text-[var(--ink-muted)]">Phone / WhatsApp</div>
-                    <div className="mt-1 text-[13px] text-[var(--ink-muted)]">01XXXXXXXXX</div>
+                  <div className="mt-4 flex gap-3">
+                    <button type="submit" className="flex-1 h-11 rounded-full bg-[var(--ink)] text-[var(--bg)] inline-flex items-center justify-center gap-2 text-[13px] font-medium hover:opacity-90 transition-opacity">
+                      <Mail className="w-4 h-4" />
+                      Send Message
+                    </button>
+                    <a
+                      href="tel:01876453018"
+                      className="h-11 px-6 rounded-full border border-[var(--line-strong)] bg-[var(--surface)] inline-flex items-center justify-center gap-2 text-[13px] font-medium"
+                    >
+                      <Phone className="w-4 h-4" />
+                      Call
+                    </a>
                   </div>
-                  <div className="sm:col-span-2 rounded-[12px] border border-[var(--line)] bg-[var(--bg)] px-4 py-3">
-                    <div className="text-[10px] uppercase tracking-widest font-semibold text-[var(--ink-muted)]">Message</div>
-                    <div className="mt-1 text-[13px] text-[var(--ink-muted)]">How can 420 DUKAN help you?</div>
+                  <div className="mt-3 text-[11px] text-[var(--ink-muted)] text-center">
+                    Your message is delivered straight to our inbox — we reply within a few hours
                   </div>
-                </div>
-                <div className="mt-4 flex gap-3">
-                  <a
-                    href="mailto:420dukan@gmail.com?subject=Inquiry%20to%20420%20DUKAN&body=Hello%20420%20DUKAN%2C"
-                    className="flex-1 h-11 rounded-full bg-[var(--ink)] text-[var(--bg)] inline-flex items-center justify-center gap-2 text-[13px] font-medium hover:opacity-90 transition-opacity"
-                  >
-                    <Mail className="w-4 h-4" />
-                    Email 420 DUKAN
-                  </a>
-                  <a
-                    href="tel:01876453018"
-                    className="h-11 px-6 rounded-full border border-[var(--line-strong)] bg-[var(--surface)] inline-flex items-center justify-center gap-2 text-[13px] font-medium"
-                  >
-                    <Phone className="w-4 h-4" />
-                    Call
-                  </a>
-                </div>
-                <div className="mt-3 text-[11px] text-[var(--ink-muted)] text-center">
-                  This form is a placeholder — email or phone is the fastest way to reach us
-                </div>
+                </form>
               </div>
             </div>
           </div>
@@ -750,11 +737,14 @@ export default function App() {
                 </ul>
               </div>
               <div className="col-span-2 sm:col-span-1">
-                <div className="font-semibold tracking-wide text-[11px] uppercase text-[var(--ink-muted)]">Legal</div>
+                <div className="font-semibold tracking-wide text-[11px] uppercase text-[var(--ink-muted)]">Business Info</div>
                 <ul className="mt-3 space-y-2 text-[var(--ink-soft)]">
-                  <li>Business: 420 DUKAN</li>
+                  <li>Name: 420 DUKAN</li>
                   <li>Nature: Online Services</li>
-                  <li>Based: Dhaka, Bangladesh</li>
+                  <li>Matabpur, Paragram, Dhaka 1320</li>
+                  <li>Hours: Sat–Thu, 10am–8pm (BST)</li>
+                  <li><a href="/privacy" className="hover:text-[var(--ink)] underline underline-offset-2">Privacy Policy</a></li>
+                  <li><a href="/terms" className="hover:text-[var(--ink)] underline underline-offset-2">Terms of Service</a></li>
                 </ul>
               </div>
             </div>
@@ -764,6 +754,10 @@ export default function App() {
             <p className="text-[12px] leading-[1.6] text-[var(--ink-soft)]">
               © 420 DUKAN — Matabpur, Paragram, Dhaka 1320, Bangladesh
             </p>
+            <div className="flex gap-4 text-[12px] text-[var(--ink-soft)]">
+              <a href="/privacy" className="hover:text-[var(--ink)]">Privacy Policy</a>
+              <a href="/terms" className="hover:text-[var(--ink)]">Terms of Service</a>
+            </div>
             <div className="flex items-center gap-2 text-[11px] text-[var(--ink-muted)]">
               <span className="h-2 w-2 rounded-full bg-emerald-500" />
               Matabpur, Paragram • Malancha, Dhaka Division, Bangladesh
@@ -771,6 +765,18 @@ export default function App() {
           </div>
         </div>
       </footer>
+
+      {/* WhatsApp chat button */}
+      <a
+        href="https://wa.me/8801876453018?text=Hello%20420%20DUKAN%2C%20I%20have%20an%20inquiry"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Chat with 420 DUKAN on WhatsApp"
+        className="fixed bottom-5 right-5 z-50 inline-flex items-center gap-2 h-12 pl-3.5 pr-4 rounded-full bg-[#25D366] text-white shadow-[0_10px_30px_-8px_rgba(0,0,0,0.4)] hover:opacity-90 transition-opacity"
+      >
+        <MessageCircle className="w-5 h-5" />
+        <span className="text-[13px] font-semibold">WhatsApp</span>
+      </a>
     </div>
   );
 }

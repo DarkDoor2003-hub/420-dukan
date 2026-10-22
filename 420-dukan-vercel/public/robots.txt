@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://420-dukan.vercel.app/sitemap.xml
