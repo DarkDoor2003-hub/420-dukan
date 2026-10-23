@@ -653,7 +653,7 @@ export default function App() {
                 <form action="https://formsubmit.co/tusert257@gmail.com" method="POST" className="mt-5">
                   <input type="hidden" name="_subject" value="New inquiry from the 420 DUKAN website" />
                   <input type="hidden" name="_template" value="table" />
-                  <input type="hidden" name="_next" value="https://420-dukan.vercel.app/#contact" />
+                  <input type="hidden" name="_next" value="https://420dukan.shop/#contact" />
                   <div className="grid sm:grid-cols-2 gap-3">
                     <label className="block rounded-[12px] border border-[var(--line)] bg-[var(--bg)] px-4 py-3">
                       <span className="text-[10px] uppercase tracking-widest font-semibold text-[var(--ink-muted)]">Your Name</span>
