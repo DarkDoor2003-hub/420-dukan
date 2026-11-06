@@ -155,7 +155,7 @@ export default function App() {
           <div>
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[var(--surface)] border border-[var(--line)] shadow-sm text-[11px] tracking-widest uppercase font-medium">
               <span className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
-              Malancha • Dhaka Division • Serving Bangladesh
+              Chattogram • Serving Bangladesh
             </div>
 
             <h1 className="mt-6 text-[36px] sm:text-[54px] lg:text-[68px] leading-[0.92] tracking-[-0.03em] font-[750]">
@@ -167,7 +167,7 @@ export default function App() {
 
             <p className="mt-6 max-w-[56ch] text-[16px] sm:text-[18px] leading-[1.6] text-[var(--ink-soft)]">
               <span className="font-semibold text-[var(--ink)]">420 DUKAN</span> is an
-              online services firm based in MATABPUR, PARAGRAM, Dhaka. We help small businesses build,
+              online services firm based in Chattogram, Bangladesh. We help small businesses build,
               market, and manage their presence online — transparently and effectively.
             </p>
 
@@ -192,7 +192,7 @@ export default function App() {
                 <div className="text-[11px] uppercase tracking-widest text-[var(--ink-muted)] font-medium">
                   Location
                 </div>
-                <div className="mt-1 text-[13px] font-semibold">MATABPUR, PARAGRAM</div>
+                <div className="mt-1 text-[13px] font-semibold">Chattogram 4000</div>
               </div>
               <div className="p-4 sm:p-5 border-r border-[var(--line)]">
                 <div className="text-[11px] uppercase tracking-widest text-[var(--ink-muted)] font-medium">
@@ -238,16 +238,16 @@ export default function App() {
                     <MapPin className="w-3.5 h-3.5" />
                   </div>
                   <div className="leading-[1.5]">
-                    <div className="font-medium">MATABPUR, PARAGRAM, Dhaka 1320, Bangladesh</div>
-                    <div className="text-[var(--ink-soft)]">Malancha, Dhaka Division</div>
+                    <div className="font-medium">Shop 115, CPDL Paragon City, 11/12 Sirajuddowla Road, Chattogram 4000, Bangladesh</div>
+                    <div className="text-[var(--ink-soft)]">Chattogram, Bangladesh</div>
                   </div>
                 </div>
                 <div className="flex gap-3 items-center">
                   <div className="h-6 w-6 rounded-full bg-[var(--bg-soft)] border border-[var(--line)] grid place-items-center flex-none">
                     <Phone className="w-3.5 h-3.5" />
                   </div>
-                  <a href="tel:01876453018" className="font-medium hover:underline">
-                    01876453018
+                  <a href="tel:01410530136" className="font-medium hover:underline">
+                    01410530136
                   </a>
                   <span className="text-[var(--ink-muted)]">• Mobile</span>
                 </div>
@@ -295,7 +295,7 @@ export default function App() {
             {/* Decorative */}
             <div className="mt-4 flex items-center gap-2 text-[11px] text-[var(--ink-muted)] px-2">
               <span className="h-px flex-1 bg-[var(--line)]" />
-              Paragram • Dhaka • Bangladesh
+              Chattogram • Bangladesh
               <span className="h-px flex-1 bg-[var(--line)]" />
             </div>
           </div>
@@ -318,7 +318,7 @@ export default function App() {
               <p className="mt-6 text-[14px] leading-[1.7] text-[var(--ink-soft)]">
                 We started 420 DUKAN to solve a simple problem: small online sellers need affordable,
                 honest digital marketing without fake promises. Every project is handled directly from
-                our office in PARAGRAM.
+                our office in Chattogram.
               </p>
             </div>
 
@@ -330,13 +330,13 @@ export default function App() {
                   </div>
                   <h4 className="mt-4 font-semibold">Local Business, Real Office</h4>
                   <p className="mt-2 text-[13px] leading-[1.6] text-[var(--ink-soft)]">
-                    An online services business based in Matabpur, Paragram — serving small businesses across Bangladesh.
+                    An online services business based in Chattogram — serving small businesses across Bangladesh.
                     Business nature: ONLINE SERVICES.
                   </p>
                   <div className="mt-4 rounded-[10px] bg-[var(--surface)] border border-[var(--line)] p-3 font-mono text-[11px] leading-[1.5]">
                     <div className="flex justify-between"><span className="text-[var(--ink-muted)]">Name:</span> <span className="font-semibold">420 DUKAN</span></div>
                     <div className="flex justify-between mt-1"><span className="text-[var(--ink-muted)]">Nature:</span> <span className="font-semibold">ONLINE SERVICES</span></div>
-                    <div className="flex justify-between mt-1"><span className="text-[var(--ink-muted)]">Location:</span> <span className="font-semibold">Dhaka 1320</span></div>
+                    <div className="flex justify-between mt-1"><span className="text-[var(--ink-muted)]">Location:</span> <span className="font-semibold">Chattogram 4000</span></div>
                   </div>
                 </div>
 
@@ -351,7 +351,7 @@ export default function App() {
                       "Facebook Page & Ads Management",
                       "Transparent Pricing, No Hidden Fees",
                       "Bengali + English Support",
-                      "Based in Dhaka Division",
+                      "Based in Chattogram",
                     ].map((t) => (
                       <li key={t} className="flex gap-2">
                         <span className="h-5 w-5 rounded-full bg-white/10 grid place-items-center flex-none">
@@ -375,7 +375,7 @@ export default function App() {
                   </div>
                 </div>
                 <div className="text-[11px] font-mono px-3 py-1.5 rounded-full bg-[var(--surface)] border border-[var(--line)] self-start sm:self-auto">
-                  Matabpur, Paragram • Dhaka
+                  Chattogram • Bangladesh
                 </div>
               </div>
             </div>
@@ -453,7 +453,7 @@ export default function App() {
                 {[
                   {
                     t: "Local & Accountable",
-                    d: "We are physically in MATABPUR, PARAGRAM. Visit us in person if you like. No virtual office, no fake address.",
+                    d: "We are physically in Chattogram 4000. Visit us in person if you like. No virtual office, no fake address.",
                   },
                   {
                     t: "Built for Facebook Ecosystem",
@@ -461,7 +461,7 @@ export default function App() {
                   },
                   {
                     t: "Honest Communication",
-                    d: "We work on WhatsApp/Phone 01876453018. Clear deliverables, weekly reporting, no long-term lock-in.",
+                    d: "We work on WhatsApp/Phone 01410530136. Clear deliverables, weekly reporting, no long-term lock-in.",
                   },
                   {
                     t: "Affordable for Small Sellers",
@@ -506,8 +506,8 @@ export default function App() {
                         <div className="mt-3 space-y-2 text-[12px] font-mono leading-[1.4]">
                           <div className="flex justify-between gap-2"><span className="text-[var(--ink-muted)]">Business:</span><span className="font-semibold">420 DUKAN</span></div>
                           <div className="flex justify-between gap-2"><span className="text-[var(--ink-muted)]">Nature:</span><span className="font-semibold">ONLINE SERVICES</span></div>
-                          <div className="flex justify-between gap-2"><span className="text-[var(--ink-muted)]">Address:</span><span className="font-semibold text-right max-w-[16ch]">MATABPUR, PARAGRAM, Dhaka 1320</span></div>
-                          <div className="flex justify-between gap-2"><span className="text-[var(--ink-muted)]">Mobile:</span><span className="font-semibold">01876453018</span></div>
+                          <div className="flex justify-between gap-2"><span className="text-[var(--ink-muted)]">Address:</span><span className="font-semibold text-right max-w-[16ch]">Chattogram 4000</span></div>
+                          <div className="flex justify-between gap-2"><span className="text-[var(--ink-muted)]">Mobile:</span><span className="font-semibold">01410530136</span></div>
                           <div className="flex justify-between gap-2"><span className="text-[var(--ink-muted)]">Email:</span><span className="font-semibold">420dukan@gmail.com</span></div>
                         </div>
                       </div>
@@ -515,7 +515,7 @@ export default function App() {
                         <div className="h-8 w-8 rounded-[10px] bg-white/10 grid place-items-center font-black text-[12px]">420</div>
                         <div className="mt-4">
                           <div className="text-[12px] font-medium">Since 2026</div>
-                          <div className="text-[11px] text-white/60 leading-[1.3] mt-1">Dhaka • Bangladesh</div>
+                          <div className="text-[11px] text-white/60 leading-[1.3] mt-1">Chattogram • Bangladesh</div>
                         </div>
                       </div>
                     </div>
@@ -532,7 +532,7 @@ export default function App() {
                   <BadgeCheck className="w-4 h-4 text-amber-900" />
                 </div>
                 <p className="text-[12px] leading-[1.5] text-[var(--ink-soft)]">
-                  <span className="font-semibold text-[var(--ink)]">Please note:</span> This website is operated by 420 DUKAN, Matabpur, Paragram, Dhaka 1320. For any question, call or WhatsApp 01876453018.
+                  <span className="font-semibold text-[var(--ink)]">Please note:</span> This website is operated by 420 DUKAN, Shop 115, CPDL Paragon City, Chattogram 4000. For any question, call or WhatsApp 01410530136.
                 </p>
               </div>
             </div>
@@ -551,7 +551,7 @@ export default function App() {
             <h2 className="mt-4 text-[28px] sm:text-[40px] leading-[0.95] tracking-[-0.02em] font-semibold">
               Visit us in
               <br />
-              PARAGRAM, Dhaka.
+              Chattogram.
             </h2>
 
             <div className="mt-8 space-y-4">
@@ -563,14 +563,14 @@ export default function App() {
                   <div className="text-[12px] uppercase tracking-widest font-semibold text-[var(--ink-muted)]">
                     Business Address
                   </div>
-                  <div className="mt-1.5 text-[15px] font-medium leading-[1.4]">MATABPUR, PARAGRAM, Dhaka 1320, Bangladesh</div>
-                  <div className="mt-1 text-[13px] text-[var(--ink-soft)]">Malancha, Dhaka Division, Bangladesh</div>
+                  <div className="mt-1.5 text-[15px] font-medium leading-[1.4]">Shop 115, CPDL Paragon City, 11/12 Sirajuddowla Road, Chattogram 4000, Bangladesh</div>
+                  <div className="mt-1 text-[13px] text-[var(--ink-soft)]">Chattogram, Bangladesh</div>
                 </div>
               </div>
 
               <div className="grid sm:grid-cols-2 gap-4">
                 <a
-                  href="tel:01876453018"
+                  href="tel:01410530136"
                   className="rounded-[16px] border border-[var(--line)] bg-[var(--surface)] p-5 hover:border-[var(--line-strong)] transition-colors group"
                 >
                   <div className="flex items-center justify-between">
@@ -582,7 +582,7 @@ export default function App() {
                   <div className="mt-3 text-[11px] uppercase tracking-widest font-semibold text-[var(--ink-muted)]">
                     Mobile
                   </div>
-                  <div className="mt-1 font-mono text-[15px] font-semibold">01876453018</div>
+                  <div className="mt-1 font-mono text-[15px] font-semibold">01410530136</div>
                 </a>
 
                 <a
@@ -618,24 +618,24 @@ export default function App() {
               {/* Map Placeholder */}
               <div className="relative rounded-[16px] overflow-hidden border border-[var(--line)] bg-[var(--bg-soft)] aspect-[4/3] sm:aspect-[16/11]">
                 <iframe
-                  title="420 DUKAN location — Matabpur, Paragram, Dhaka 1320"
-                  src="https://maps.google.com/maps?q=Paragram%2C%20Dhaka%201320%2C%20Bangladesh&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  title="420 DUKAN location — Shop 115, CPDL Paragon City, Chattogram 4000"
+                  src="https://maps.google.com/maps?q=CPDL%20Paragon%20City%2C%20Sirajuddowla%20Road%2C%20Chattogram%204000%2C%20Bangladesh&t=&z=13&ie=UTF8&iwloc=&output=embed"
                   className="absolute inset-0 h-full w-full border-0"
                   loading="lazy"
                 />
 
                 <div className="absolute left-3 top-3 px-3 py-1.5 rounded-full bg-[var(--surface)] border border-[var(--line)] shadow-sm flex items-center gap-2 text-[11px] font-medium">
                   <div className="h-2 w-2 rounded-full bg-emerald-500" />
-                  Dhaka 1320 • Bangladesh
+                  Chattogram 4000 • Bangladesh
                 </div>
 
                 <div className="absolute bottom-3 left-3 right-3 flex justify-between items-end gap-3">
                   <div className="px-3 py-2 rounded-[10px] bg-[var(--surface)]/90 backdrop-blur border border-[var(--line)] text-[11px] leading-[1.4] max-w-[58%]">
                     <div className="font-semibold">Find Us Here</div>
-                    <div className="text-[var(--ink-soft)]">Exact pin: MATABPUR, PARAGRAM, Dhaka 1320</div>
+                    <div className="text-[var(--ink-soft)]">Exact pin: Shop 115, CPDL Paragon City, Chattogram 4000</div>
                   </div>
                   <a
-                    href="https://maps.google.com/?q=MATABPUR+PARAGRAM+Dhaka+1320+Bangladesh"
+                    href="https://maps.google.com/?q=CPDL+Paragon+City+Chattogram+4000+Bangladesh"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="h-9 px-4 rounded-full bg-[var(--ink)] text-[var(--bg)] text-[12px] font-medium inline-flex items-center gap-1.5 hover:opacity-90"
@@ -674,7 +674,7 @@ export default function App() {
                       Send Message
                     </button>
                     <a
-                      href="tel:01876453018"
+                      href="tel:01410530136"
                       className="h-11 px-6 rounded-full border border-[var(--line-strong)] bg-[var(--surface)] inline-flex items-center justify-center gap-2 text-[13px] font-medium"
                     >
                       <Phone className="w-4 h-4" />
@@ -703,15 +703,15 @@ export default function App() {
                 <span className="font-[700] tracking-[0.12em] text-[14px]">420 DUKAN</span>
               </div>
               <p className="mt-4 max-w-[38ch] text-[13px] leading-[1.6] text-[var(--ink-soft)]">
-                Digital Marketing & Online Services based in MATABPUR, PARAGRAM, Dhaka 1320, Bangladesh.
+                Digital Marketing & Online Services based in Shop 115, CPDL Paragon City, 11/12 Sirajuddowla Road, Chattogram 4000, Bangladesh.
                 Digital marketing, page management, content and online business support.
               </p>
               <div className="mt-5 flex flex-wrap gap-2">
                 <span className="px-3 py-1.5 rounded-full bg-[var(--bg-soft)] border border-[var(--line)] text-[11px] font-mono">
-                  MATABPUR, PARAGRAM
+                  Chattogram 4000
                 </span>
                 <span className="px-3 py-1.5 rounded-full bg-[var(--bg-soft)] border border-[var(--line)] text-[11px] font-mono">
-                  Dhaka 1320
+                  Chattogram 4000
                 </span>
                 <span className="px-3 py-1.5 rounded-full bg-[var(--accent-soft)] border border-[var(--line)] text-[11px] font-medium text-[var(--accent)]">
                   ONLINE SERVICES
@@ -721,7 +721,7 @@ export default function App() {
                 <a href="https://www.facebook.com/420dukan4u" target="_blank" rel="noopener noreferrer" aria-label="420 DUKAN on Facebook" className="h-9 w-9 rounded-full bg-[var(--bg-soft)] border border-[var(--line)] grid place-items-center hover:border-[var(--line-strong)] transition-colors">
                   <Facebook className="w-4 h-4" />
                 </a>
-                <a href="https://wa.me/8801876453018" target="_blank" rel="noopener noreferrer" aria-label="420 DUKAN on WhatsApp" className="h-9 w-9 rounded-full bg-[var(--bg-soft)] border border-[var(--line)] grid place-items-center hover:border-[var(--line-strong)] transition-colors">
+                <a href="https://wa.me/8801410530136" target="_blank" rel="noopener noreferrer" aria-label="420 DUKAN on WhatsApp" className="h-9 w-9 rounded-full bg-[var(--bg-soft)] border border-[var(--line)] grid place-items-center hover:border-[var(--line-strong)] transition-colors">
                   <MessageCircle className="w-4 h-4" />
                 </a>
                 <a href="mailto:420dukan@gmail.com" aria-label="Email 420 DUKAN" className="h-9 w-9 rounded-full bg-[var(--bg-soft)] border border-[var(--line)] grid place-items-center hover:border-[var(--line-strong)] transition-colors">
@@ -743,9 +743,9 @@ export default function App() {
               <div>
                 <div className="font-semibold tracking-wide text-[11px] uppercase text-[var(--ink-muted)]">Contact</div>
                 <ul className="mt-3 space-y-2 text-[var(--ink-soft)]">
-                  <li>MATABPUR, PARAGRAM</li>
-                  <li>Dhaka 1320</li>
-                  <li><a href="tel:01876453018" className="hover:text-[var(--ink)]">01876453018</a></li>
+                  <li>Chattogram 4000</li>
+                  <li>Chattogram 4000</li>
+                  <li><a href="tel:01410530136" className="hover:text-[var(--ink)]">01410530136</a></li>
                   <li><a href="mailto:420dukan@gmail.com" className="hover:text-[var(--ink)]">420dukan@gmail.com</a></li>
                 </ul>
               </div>
@@ -754,7 +754,7 @@ export default function App() {
                 <ul className="mt-3 space-y-2 text-[var(--ink-soft)]">
                   <li>Name: 420 DUKAN</li>
                   <li>Nature: Online Services</li>
-                  <li>Matabpur, Paragram, Dhaka 1320</li>
+                  <li>Shop 115, CPDL Paragon City, Chattogram 4000</li>
                   <li>Hours: Sat–Thu, 10am–8pm (BST)</li>
                   <li><a href="https://www.facebook.com/420dukan4u" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--ink)] underline underline-offset-2">Facebook Page</a></li>
                   <li><a href="/privacy" className="hover:text-[var(--ink)] underline underline-offset-2">Privacy Policy</a></li>
@@ -766,7 +766,7 @@ export default function App() {
 
           <div className="mt-10 pt-6 border-t border-[var(--line)] flex flex-col sm:flex-row gap-3 justify-between items-start sm:items-center">
             <p className="text-[12px] leading-[1.6] text-[var(--ink-soft)]">
-              © 420 DUKAN — Matabpur, Paragram, Dhaka 1320, Bangladesh
+              © 420 DUKAN — Shop 115, CPDL Paragon City, 11/12 Sirajuddowla Road, Chattogram 4000, Bangladesh
             </p>
             <div className="flex gap-4 text-[12px] text-[var(--ink-soft)]">
               <a href="/privacy" className="hover:text-[var(--ink)]">Privacy Policy</a>
@@ -774,7 +774,7 @@ export default function App() {
             </div>
             <div className="flex items-center gap-2 text-[11px] text-[var(--ink-muted)]">
               <span className="h-2 w-2 rounded-full bg-emerald-500" />
-              Matabpur, Paragram • Malancha, Dhaka Division, Bangladesh
+              Chattogram, Bangladesh
             </div>
           </div>
         </div>
@@ -782,7 +782,7 @@ export default function App() {
 
       {/* WhatsApp chat button */}
       <a
-        href="https://wa.me/8801876453018?text=Hello%20420%20DUKAN%2C%20I%20have%20an%20inquiry"
+        href="https://wa.me/8801410530136?text=Hello%20420%20DUKAN%2C%20I%20have%20an%20inquiry"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat with 420 DUKAN on WhatsApp"
